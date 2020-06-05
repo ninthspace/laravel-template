@@ -34,8 +34,8 @@ composer require ninthspace/mirabile --dev
 vendor/bin/mirabile-install
 
 # PHP Insights
-composer require nunomaduro/phpinsights --dev
-php artisan vendor:publish --provider="NunoMaduro\PhpInsights\Application\Adapters\Laravel\InsightsServiceProvider"
+# composer require nunomaduro/phpinsights --dev
+# php artisan vendor:publish --provider="NunoMaduro\PhpInsights\Application\Adapters\Laravel\InsightsServiceProvider"
 
 # PHP Pest
 composer require phpunit/phpunit:"^9.0" --dev --update-with-dependencies
