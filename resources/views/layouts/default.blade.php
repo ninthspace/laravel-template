@@ -17,7 +17,7 @@
     <link media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
           rel="stylesheet">
     <title>
-        @yield('title') Tramper
+        @yield('title')
     </title>
     @livewireStyles
     <script src="{{ manifest('assets', 'application.js') }}"></script>
